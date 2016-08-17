@@ -20,6 +20,8 @@
   IPAddress gateway(192,168,168,168);
   IPAddress subnet(255,255,255,0);
 
+const char* ssid = "WIFI ROUTER NAME";
+const char* password = "WIFI PASS";
 const int analogInPin = A0;  // Analog input pin that the potentiometer is attached to
 int sensorValue = 0;  
 int outputValue = 0;
